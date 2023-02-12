@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.vCenter{
+    align-items: center;
+}
+.hBetween{
+    justify-content: space-between;
+}
+.banner{
+    background-image:linear-gradient(90deg, rgba(0, 95, 172, 0) 0%, #009349 100%), url(../img/banner.svg);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    max-width:670px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 20px 0 30px;
+}
+.banner-content a{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: right;
+    text-decoration: none;
+    color: #00ac11;
+    padding: 20px 25px;
+    display: inline-block;
+}
+.about-me{
+    padding: 50px 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.column-2{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.content{
+    padding-right: 141px;
+}
+.column-2 h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;    
+    color: #151414;
+}
+.column-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    color: #444343;
+    margin: 20px 0;
+}
+.column-2 ul{
+    list-style: none;
+}
+.column-2 ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    display: flex;
+    align-items: center;
+}
+.column-2 ul li img{
+    width: 24px;
+    margin-right: 10px;
+}
+.column-2 > img{
+    max-width: 100%;
+    width: 400px;
+}
+.plans{
+    padding: 50px 0;
+    text-align: center;
+}
+.plans h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;   
+    text-align: center;  
+    color: #151414;
+    margin-bottom: 50px;
+}
+.column-4{
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.column-4 h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+.column-4 p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;   
+    color: #737272;
+}
+.call-now{
+    background-image:linear-gradient(90deg, #009349 0%, rgba(0, 95, 172, 0) 100%), url(../img/Group\ 3983\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.call-now-content{
+    padding: 60px;
+}
+.call-now-content h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+.call-now-content a {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: right;
+    text-decoration: none;
+    color: #00ac11;
+    padding: 20px 25px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+footer{
+    background: #27AE60;
+    padding: 100px 0;
+}
+.footer-info{
+    flex-basis: 40%;
+    max-width: 40%;
+}
+.footer-info h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.footer-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.icon{
+    list-style: none;
+    display: flex;
+}
+.icon li a{
+    width: 45px;
+    background-color: #fff;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.subscription{
+    flex-basis: 30%;
+    max-width: 30%;
+}
+.subscription h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+.text{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 20px;
+    color: #f3f3f3 ;
+    width: 100%;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+}
+.submit{
+    background: #009355;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 35px;
+    color: #fff;
+    border: 0;
+}
+::placeholder{
+    color: #fff;
+}
